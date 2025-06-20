@@ -1,0 +1,602 @@
+.cus{
+  right: 2%;           /* push from the right edge */
+  left: auto;           /* remove left alignment */
+  top: 45%;             /* center vertically */
+  transform: translateY(-50%);  /* adjust for perfect vertical center */
+  text-align: left;    
+  color:white;
+}
+.cus-left {
+  left: 2%;              /* push from the left edge */
+  right: auto;           /* remove right alignment */
+  top: 45%;              /* center vertically */
+  transform: translateY(-50%);
+  text-align: left;
+  color: white;
+}
+.button
+{
+    background-color: white;
+    color: black;
+    padding:15px 28px 15px 28px;
+    border: none;
+
+
+}
+.carousel-title {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.carousel-subtitle {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 40px;
+  }
+
+  .carousel-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-title {
+    font-size: 30px;
+  }
+
+  .carousel-subtitle {
+    font-size: 14px;
+  }
+}
+
+
+.fsw {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.fsw:hover {
+  color: #007bff; /* Bootstrap primary or any color */
+  border-bottom: 2px solid #007bff;
+}
+
+.b1
+{
+    background-color:transparent;
+    color: white;
+    margin-left: 10px;
+    padding: 13px 28px 13px 28px;
+    border: 2px solid white;
+}
+.b5
+{
+    /* background-color:transparent; */
+    color: rgb(5, 5, 5);
+    margin-left: 10px;
+    padding: 20px 48px 20px 48px;
+    border: 2px solid white;
+}
+.cu{
+        
+  top: 45%;             /* center vertically */
+  transform: translateY(-50%);  /* adjust for perfect vertical center */
+  text-align: left;    
+  color:white;
+  /* margin-left: -0px; */
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: white;
+  transition:  0.3s ease;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #090909; /* your active color */
+}
+
+.zoom-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.zoom-img {
+  transition: transform 0.4s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Optional: makes sure image fills container nicely */
+}
+
+.zoom-container:hover .zoom-img {
+  transform: scale(1.1); /* Zoom in effect */
+}
+.image-container1 {
+  position: relative;
+  overflow: hidden;
+}
+.img-1
+{
+  position: absolute;
+  width: 40%;
+  z-index: 1;
+  left: 65%;
+  bottom: 0px;
+}
+.img-2
+{
+  margin-left: 20%;
+}
+.img-1 img{
+  transition: transform 0.9s ease;
+  cursor: pointer;
+  
+}
+.img-1 img:hover{
+  transform: scale(1.1);
+}
+.b3
+{
+    background-color:transparent;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 20px 43px 20px 43px;
+    border: 2px solid white;
+    background-color: #b99f4a;
+}
+.h1:hover
+{
+  color:orangered;
+  cursor: pointer;
+}
+.image-hover-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.image-hover-wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.9s ease;
+}
+
+.main-img {
+  z-index: 1;
+  opacity: 1;
+}
+
+.hover-img {
+  z-index: 2;
+  opacity: 0;
+}
+
+.image-hover-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4; /* Replace fixed height */
+  overflow: hidden;
+}
+
+.image-hover-wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.9s ease;
+}
+
+.main-img {
+  z-index: 1;
+  opacity: 1;
+}
+
+.hover-img {
+  z-index: 2;
+  opacity: 0;
+}
+
+.image-hover-wrapper:hover .hover-img {
+  opacity: 1;
+}
+
+.image-hover-wrapper:hover .main-img {
+  opacity: 0;
+}
+
+
+.overlay-text {
+  position: absolute;
+  top: 50%;         /* vertically center */
+  left: 50%;        /* horizontally center */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.ic{
+  /* font-size:'30px'; */
+
+  color:orangered;
+  background-color: none;
+  /* border: 2px solid blue; */
+}
+.background {
+  background-image: url('./img/bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  filter: blur(0.5px); /* Blurs entire container */
+}
+
+
+
+.background1 {
+  background-image: url('./img/bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+
+}
+.background2{
+  background-image: url('./img/bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+
+}
+.background3{
+  background-image: url('./img/bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+}
+.s1 {
+  font-size: 50px;
+  color: rgb(130, 93, 45);
+  border: 17px solid gainsboro;
+  border-radius: 70%;
+  padding: 30px;
+}
+@media (max-width: 768px) {
+  .s1 {
+    font-size: 30px;
+    padding: 20px;
+    border-width: 12px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 576px) {
+  .s1 {
+    font-size: 24px;
+    padding: 15px;
+    border-width: 10px;
+  }
+}
+.x1{
+  color:white;
+  background-color: rgb(130, 93, 45); 
+  padding:10px 10px 10px 10px;
+}
+
+/* In Home.css or App.css */
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-down {
+  animation: slideDownFade 4s ease-out forwards;
+}
+.equal-height-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  
+} */
+
+@media (max-width: 768px) {
+  .category-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .category-heading {
+    font-size: 1.3rem;
+  }
+}
+.zoom-container {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.zoom-img {
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.zoom-container:hover .zoom-img {
+  transform: scale(1.05);
+}
+.responsive-title {
+  font-size: 4.5rem; /* default large font */
+  margin-bottom: 1rem;
+}
+
+.responsive-paragraph {
+  color: gray;
+  text-align: justify;
+  font-family: 'Georgia', serif; /* you can change this */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+  .responsive-title {
+    font-size: 3.5rem;
+  }
+  .responsive-paragraph {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .responsive-title {
+    font-size: 2.5rem;
+  }
+  .responsive-paragraph {
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .responsive-title {
+    font-size: 2rem;
+  }
+  .responsive-paragraph {
+    font-size: 0.9rem;
+  }
+}
+
+/* Optional button styling if you want */
+/* .b3 {
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.b3:hover {
+  background-color: #333;
+} */
+.h1-responsive {
+  font-size: 3rem; /* default desktop */
+  margin: 10px 0;
+  text-align: left;
+  transition: color 0.3s ease;
+   color: rgb(87, 51, 38);
+}
+
+/* .h1-responsive:hover {
+  color: orangered;
+  cursor: pointer;
+} */
+
+/* Medium devices (tablets, 768px - 991px) */
+@media (max-width: 991px) {
+  .h1-responsive {
+    font-size: 2.5rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px - 767px) */
+@media (max-width: 767px) {
+  .h1-responsive {
+    font-size: 2rem;
+  }
+}
+
+
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575px) {
+  .h1-responsive {
+    font-size: 1.5rem;
+  }
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.7rem;
+  }
+}
+
+.section-divider {
+  width: 100%;
+  border-top: 3px solid #ccc;
+  margin-top: 10px;
+}
+.feature-text {
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .feature-text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-text {
+    font-size: 18px;
+  }
+}
+
+.feature-logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.feature-logo {
+  max-width: 100px;
+  height: auto;
+}
+/* Default (large screens) */
+.responsive-text {
+  font-size: 20px!important; 
+}
+
+/* Medium screens (≤ 992px) */
+@media (max-width: 992px) {
+  .responsive-text {
+    font-size: 18px!important; 
+  }
+}
+
+/* Small screens (≤ 768px) */
+@media (max-width: 768px) {
+  .responsive-text {
+    font-size: 16px!important; 
+  }
+}
+
+/* Extra small screens (≤ 576px) */
+@media (max-width: 576px) {
+  .responsive-text {
+    font-size: 14px !important; 
+  }
+}
+
+.headline1 {
+  font-size: 50px;
+  color: rgb(130, 93, 45);
+}
+
+.headline2 {
+  font-size: 45px;
+  color: black;
+}
+
+.custom-btn {
+  background-color: rgb(130, 93, 45);
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .headline1 {
+    font-size: 36px;
+  }
+
+  .headline2 {
+    font-size: 30px;
+  }
+
+  .custom-btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .headline1 {
+    font-size: 28px;
+  }
+
+  .headline2 {
+    font-size: 24px;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+}
